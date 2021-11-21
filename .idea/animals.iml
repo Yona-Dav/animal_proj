@@ -7,6 +7,7 @@
     <orderEntry type="jdk" jdkName="Python 3.7 (animals) (2)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="first_proj" />
+    <orderEntry type="module" module-name="people" />
   </component>
   <component name="PyDocumentationSettings">
     <option name="format" value="PLAIN" />

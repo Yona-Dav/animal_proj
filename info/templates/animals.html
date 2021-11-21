@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Animals</title>
+</head>
+<body>
+<h3>The animals:</h3>
+{% for id, name in animals.items%}
+<ul>
+    <li>
+    <a href="/animal/{{id}}">{{name}}</a>
+    </li>
+</ul>
+{%endfor%}
+</body>
+</html>

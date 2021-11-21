@@ -8,8 +8,11 @@
 {% if animal %}
     <ul>
         {% for key, value in animal.items %}
+        {% if key not in image%}
         <li>{{key}} : {{value}} </li>
+        {% endif %}
         {%endfor%}
+        <img src="{{ image }}"  >
     </ul>
 {% else %}
     no animal by that id found
